@@ -9,6 +9,11 @@ body {
 .header {
     background-color: white;
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container-header {
@@ -63,10 +68,11 @@ a {
     margin: 0 auto;
     background-color: white;
     box-sizing: border-box;
+    margin-bottom: 120px; 
 }
 
 .content {
-    margin-top: 40px;
+    margin-top: 140px;
     padding: 0 30px 10px 30px;
     position: relative;
 }
@@ -105,20 +111,24 @@ p {
 
 .footer {
     background-color: #616161;
-    padding-top: 30px;
-    padding-bottom: 5px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     border-top: solid #58bcc4 10px;
     text-align: center;
+    height: 80px;
+    box-sizing: border-box;
 }
 
 #copyright {
     margin: 0;
     font-size: 12px;
     color: #d6d6d6;
+    position: fixed;
+    bottom: 5px;;
+    width: 100%;
+    padding: 0;
 }
 
 .project {
